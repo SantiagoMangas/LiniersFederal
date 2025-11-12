@@ -15,19 +15,19 @@ export function Hero() {
                     Liga Federal 2026
                 </div>
 
-                <h1 className="mb-6 text-balance text-5xl font-black uppercase leading-[0.9] tracking-tight text-white md:text-7xl lg:text-8xl">
+                <h1 className="mb-6 text-balance text-5xl font-black uppercase leading-[1] tracking-tight text-white md:text-7xl lg:text-8xl">
                     Unidos por el
                 <br />
                 <span className="italic">Sueño Federal</span>
                 </h1>
 
                 <p className="mb-10 max-w-2xl text-pretty text-lg font-medium text-white/90 md:text-xl">
-                    Ayudanos a representar a Bahía Blanca en la Liga Federal de Vóley 2026
+                    Ayudanos a representar a Bahía Blanca por sexto año consecutivo a nivel nacional. La Liga Federal Argentina de Voley 2026 es nuestro sueño y necesitamos del apoyo de toda la ciudad.
                 </p>
 
                 <div className="flex flex-col gap-4 sm:flex-row">
                     <button 
-                        onClick={() => document.getElementById('donaciones')?.scrollIntoView({ behavior: 'smooth' })}
+                        onClick={() => document.getElementById('donation')?.scrollIntoView({ behavior: 'smooth' })}
                         className="group relative overflow-hidden rounded-full bg-white px-8 py-4 text-base font-bold uppercase tracking-wide text-black transition-all duration-300 hover:scale-105 hover:shadow-2xl"
                     >
                         <span className="relative z-10">Donar Ahora</span>

@@ -30,8 +30,7 @@ export function About() {
             </div>
             <h3 className="mb-3 text-xl font-bold text-black">Crecimiento</h3>
             <p className="text-pretty leading-relaxed">
-              Nuestros equipos de vóley masculino y femenino crecieron con esfuerzo, disciplina y pasión. Hoy están
-              listos para el desafío federal.
+              Nuestros equipos de vóley masculino y femenino crecieron con esfuerzo, disciplina y pasión. Hoy están listos para el desafío de la Liga Federal.
             </p>
           </div>
 
