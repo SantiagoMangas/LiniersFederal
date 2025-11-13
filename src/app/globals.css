@@ -2,8 +2,10 @@
 
 
 :root {
-  --background: #ffffff;
+  --background: #F8F8F8;
   --foreground: #171717;
+  --border: #CECECE;
+  --secondary: #dbdada;
 }
 
 @theme {
@@ -13,6 +15,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-secondary: var(--secondary);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
