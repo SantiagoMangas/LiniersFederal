@@ -36,10 +36,10 @@ export function Desafio() {
             description="Inscripción, gestíon, coordinación y gastos operativos del torneo"
             />
         </div>
-        <div className="rounded-2xl border border-white/20 bg-white/5 p-8 backdrop-blur-sm transition-all hover:bg-white/10">
-            <div className="mb-4 flex items-center justify-between">
-            <h3 className="text-2xl font-bold text-white">Meta de Recaudación</h3>
-            <p className="text-3xl font-black text-white">$27.800.000</p>
+        <div className="rounded-2xl border border-white/20 bg-white/5 p-6 md:p-8 backdrop-blur-sm transition-all hover:bg-white/10">
+          <div className="mb-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between md:gap-0">
+            <h3 className="text-xl font-bold text-white md:text-2xl">Meta de Recaudación</h3>
+            <p className="text-2xl font-black text-white md:text-3xl">$27.800.000</p>
           </div>
           <div className="mb-3 h-4 w-full overflow-hidden rounded-full bg-white/20">
             <div className="h-full w-0 bg-white transition-all duration-500" />
