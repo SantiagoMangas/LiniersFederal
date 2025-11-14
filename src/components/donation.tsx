@@ -11,7 +11,7 @@ export function Donation(){
             Cómo Podés Ayudar
           </h2>
           <div className="mx-auto h-1 w-24 bg-black" />
-          <p className="mx-auto mt-6 max-w-3xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
+          <p className="text-black mx-auto mt-6 max-w-3xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
             Elegí la forma que más te convenga para ser parte de este sueño federal
           </p>
         </div>

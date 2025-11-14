@@ -16,7 +16,7 @@ export function About() {
               </div>
             </div>
             <h3 className="mb-3 text-xl font-bold text-black">Tradición</h3>
-            <p className="text-pretty leading-relaxed">
+            <p className="text-black text-pretty leading-relaxed">
               El Club Liniers es historia viva del deporte bahiense. Durante décadas, nuestras canchas han formado
               campeones y personas de bien.
             </p>
@@ -29,7 +29,7 @@ export function About() {
               </div>
             </div>
             <h3 className="mb-3 text-xl font-bold text-black">Crecimiento</h3>
-            <p className="text-pretty leading-relaxed">
+            <p className="text-black text-pretty leading-relaxed">
               Nuestros equipos de vóley masculino y femenino crecieron con esfuerzo, disciplina y pasión. Hoy están listos para el desafío de la Liga Federal.
             </p>
           </div>
@@ -41,7 +41,7 @@ export function About() {
               </div>
             </div>
             <h3 className="mb-3 text-xl font-bold text-black">Pasión</h3>
-            <p className="text-pretty leading-relaxed">
+            <p className="text-black text-pretty leading-relaxed">
               Cada entrenamiento, cada partido, cada sacrificio nos acerca al sueño de representar a Bahía Blanca a
               nivel nacional.
             </p>

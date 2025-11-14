@@ -30,7 +30,7 @@ export default function Contact() {
       icon: Mail,
       color: "from-gray-700 to-black",
       hoverColor: "group-hover:scale-110",
-      link: "#"
+      link: "mailto:claudiocampera@hotmail.com"
     }
   ]
 

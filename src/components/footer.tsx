@@ -7,7 +7,7 @@ export default function Footer() {
     { name: "Instagram", icon: Instagram, link: "https://www.instagram.com/liniersvoley_bahiablanca/" },
     { name: "Facebook", icon: Facebook, link: "https://www.facebook.com/liniers.voley.9?locale=es_LA" },
     { name: "WhatsApp", icon: MessageCircle, link: "https://wa.me/5492915093873?text=Hola,%20tengo%20dudas%20sobre%20cómo%20donar"},
-    { name: "Email", icon: Mail, link: "#",  }
+    { name: "Email", icon: Mail, link: "mailto:claudiocampera@hotmail.com",  }
   ]
 
   const quickLinks = [
