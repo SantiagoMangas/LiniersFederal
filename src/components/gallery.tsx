@@ -48,7 +48,6 @@ const galleryData: GalleryData = {
     { url: 'chivas/chivas(11).jpeg', alt: 'Equipo femenino 4' },
     { url: 'chivas/chivas(12).jpeg', alt: 'Equipo femenino 4' },
     { url: 'chivas/chivas(13).jpeg', alt: 'Equipo femenino 4' },
-    { url: 'chivas/chivas(14).jpeg', alt: 'Equipo femenino 4' },
     { url: 'chivas/chivas(15).jpeg', alt: 'Equipo femenino 4' },
   ],
   masculino: [
@@ -59,7 +58,6 @@ const galleryData: GalleryData = {
     { url: 'chivos/chivos(5).jpeg', alt: 'Equipo masculino 4' },
     { url: 'chivos/chivos(6).jpeg', alt: 'Equipo masculino 4' },
     { url: 'chivos/chivos(7).jpeg', alt: 'Equipo masculino 4' },
-    { url: 'chivos/chivos(8).jpeg', alt: 'Equipo masculino 4' },
     { url: 'chivos/chivos(9).jpeg', alt: 'Equipo masculino 4' },
     { url: 'chivos/chivos(10).jpeg', alt: 'Equipo masculino 4' },
     { url: 'chivos/chivos(11).jpeg', alt: 'Equipo masculino 4' },
@@ -69,10 +67,7 @@ const galleryData: GalleryData = {
     { url: 'chivos/chivos(15).jpeg', alt: 'Equipo masculino 4' },   
   ],
   entrenando: [
-    { url: 'entrenando/entrenando(1).jpeg', alt: 'Entrenando 1' },
-    { url: 'entrenando/entrenando(2).jpeg', alt: 'Entrenando 2' },
     { url: 'entrenando/entrenando(3).jpeg', alt: 'Entrenando 3' },
-    { url: 'entrenando/entrenando(4).jpeg', alt: 'Entrenando 4' },
     { url: 'entrenando/entrenando(5).jpeg', alt: 'Entrenando 5' },
     { url: 'entrenando/entrenando(6).jpeg', alt: 'Entrenando 6' },
     { url: 'entrenando/entrenando(7).jpeg', alt: 'Entrenando 7' },
@@ -93,13 +88,10 @@ const galleryData: GalleryData = {
     { url: 'competencia/competencia(7).jpeg', alt: 'Competencia 7' },
     { url: 'competencia/competencia(8).jpeg', alt: 'Competencia 8' },
     { url: 'competencia/competencia(9).jpeg', alt: 'Competencia 9' },
-    { url: 'competencia/competencia(10).jpeg', alt: 'Competencia 10' },
     { url: 'competencia/competencia(11).jpeg', alt: 'Competencia 11' },
     { url: 'competencia/competencia(12).jpeg', alt: 'Competencia 12' },
     { url: 'competencia/competencia(13).jpeg', alt: 'Competencia 13' },
     { url: 'competencia/competencia(14).jpeg', alt: 'Competencia 14' },
-    { url: 'competencia/competencia(15).jpeg', alt: 'Competencia 15' },
-    { url: 'competencia/competencia(16).jpeg', alt: 'Competencia 16' },
     { url: 'competencia/competencia(17).jpeg', alt: 'Competencia 17' },
     { url: 'competencia/competencia(18).jpeg', alt: 'Competencia 18' },
     { url: 'competencia/competencia(19).jpeg', alt: 'Competencia 19' },
@@ -110,6 +102,32 @@ const galleryData: GalleryData = {
     { url: 'competencia/competencia(24).jpeg', alt: 'Competencia 24' },
     { url: 'competencia/competencia(25).jpeg', alt: 'Competencia 25' },
   ],
+  staff:[
+    { url: 'equipo-tecnico/staff(1).jpeg', alt: 'Staff 1' },
+    { url: 'equipo-tecnico/staff(2).jpeg', alt: 'Staff 2' },
+    { url: 'equipo-tecnico/staff(3).jpeg', alt: 'Staff 3' },
+    { url: 'equipo-tecnico/staff(4).jpeg', alt: 'Staff 4' },
+    { url: 'equipo-tecnico/staff(5).jpeg', alt: 'Staff 5' },
+    { url: 'equipo-tecnico/staff(6).jpeg', alt: 'Staff 6' },
+  ],
+  noticias:[
+    { url: 'noticias/noticias(1).png', alt: 'Noticia 1' },
+    { url: 'noticias/noticias(2).png', alt: 'Noticia 2' },
+    { url: 'noticias/noticias(3).png', alt: 'Noticia 3' },
+    { url: 'noticias/noticias(4).png', alt: 'Noticia 4' },
+    { url: 'noticias/noticias(5).png', alt: 'Noticia 5' },
+    { url: 'noticias/noticias(6).png', alt: 'Noticia 6' },
+    { url: 'noticias/noticias(7).png', alt: 'Noticia 7' },
+    { url: 'noticias/noticias(8).png', alt: 'Noticia 8' },
+    { url: 'noticias/noticias(9).png', alt: 'Noticia 9' },
+    { url: 'noticias/noticias(10).png', alt: 'Noticia 10' },
+    { url: 'noticias/noticias(11).png', alt: 'Noticia 11' },
+    { url: 'noticias/noticias(12).png', alt: 'Noticia 12' },
+    { url: 'noticias/noticias(13).png', alt: 'Noticia 13' },
+    { url: 'noticias/noticias(14).png', alt: 'Noticia 14' },
+    { url: 'noticias/noticias(15).png', alt: 'Noticia 15' },
+    { url: 'noticias/noticias(16).png', alt: 'Noticia 16' },
+  ]
 };
 
 const categories: Category[] = [
@@ -117,6 +135,8 @@ const categories: Category[] = [
   { id: 'masculino', name: 'Equipo Masculino' },
   { id: 'entrenando', name: 'Entrenando' },
   { id: 'competencia', name: 'Competencia' },
+  { id: 'staff', name: 'Staff Técnico' },
+  { id: 'noticias', name: 'Noticias' }
 ];
 
 function ImageCarousel({ images, onImageClick }: ImageCarouselProps) {
@@ -141,40 +161,41 @@ function ImageCarousel({ images, onImageClick }: ImageCarouselProps) {
         />
         <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors" />
         
-        {/* Contador de fotos */}
-        <div className="absolute top-4 right-4 bg-black/70 text-white px-3 py-1 rounded-full text-sm font-semibold">
+        <div className="absolute top-4 right-4 bg-black/70 text-white px-3 py-1 rounded-full text-sm font-semibold backdrop-blur-sm">
           {currentIndex + 1} / {images.length}
         </div>
       </div>
 
-      {/* Controles */}
       {images.length > 1 && (
         <>
+          {/* Botones siempre visibles en móvil, semi-transparentes en desktop */}
           <button
             onClick={prev}
-            className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/70 hover:bg-black text-white p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
+            className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/70 hover:bg-black text-white p-2 rounded-full md:opacity-0 md:group-hover:opacity-100 transition-opacity backdrop-blur-sm z-10"
+            aria-label="Imagen anterior"
           >
-            <ChevronLeft className="w-6 h-6" />
+            <ChevronLeft className="w-5 h-5 md:w-6 md:h-6" />
           </button>
           <button
             onClick={next}
-            className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/70 hover:bg-black text-white p-2 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
+            className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/70 hover:bg-black text-white p-2 rounded-full md:opacity-0 md:group-hover:opacity-100 transition-opacity backdrop-blur-sm z-10"
+            aria-label="Imagen siguiente"
           >
-            <ChevronRight className="w-6 h-6" />
+            <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
           </button>
         </>
       )}
 
-      {/* Indicadores */}
       {images.length > 1 && (
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
           {images.map((_, idx) => (
             <button
               key={idx}
               onClick={() => setCurrentIndex(idx)}
-              className={`w-2 h-2 rounded-full transition-all ${
-                idx === currentIndex ? 'bg-white w-6' : 'bg-white/50'
+              className={`h-2 rounded-full transition-all ${
+                idx === currentIndex ? 'bg-white w-6' : 'bg-white/50 w-2'
               }`}
+              aria-label={`Ir a imagen ${idx + 1}`}
             />
           ))}
         </div>
@@ -198,40 +219,43 @@ function Lightbox({ images, initialIndex, onClose }: LightboxProps) {
     <div className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4">
       <button
         onClick={onClose}
-        className="absolute top-4 right-4 text-white hover:text-gray-300 p-2"
+        className="absolute top-4 right-4 text-white hover:text-gray-300 p-2 bg-black/50 rounded-full backdrop-blur-sm z-20"
+        aria-label="Cerrar"
       >
-        <X className="w-8 h-8" />
+        <X className="w-6 h-6 md:w-8 md:h-8" />
       </button>
 
       <button
         onClick={prev}
-        className="absolute left-4 top-1/2 -translate-y-1/2 text-white hover:text-gray-300 p-2"
+        className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 text-white hover:text-gray-300 p-2 bg-black/50 rounded-full backdrop-blur-sm z-20"
+        aria-label="Imagen anterior"
       >
-        <ChevronLeft className="w-10 h-10" />
+        <ChevronLeft className="w-8 h-8 md:w-10 md:h-10" />
       </button>
 
-      <div className="max-w-5xl max-h-[90vh] w-full">
+      <div className="max-w-5xl max-h-[90vh] w-full flex flex-col items-center justify-center">
         <img
           src={images[currentIndex].url}
           alt={images[currentIndex].alt}
-          className="w-full h-full object-contain"
+          className="max-w-full max-h-[80vh] object-contain"
         />
-        <div className="text-white text-center mt-4 text-lg font-semibold">
+        <div className="text-white text-center mt-4 text-base md:text-lg font-semibold bg-black/50 px-4 py-2 rounded-full backdrop-blur-sm">
           {currentIndex + 1} / {images.length}
         </div>
       </div>
 
       <button
         onClick={next}
-        className="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-gray-300 p-2"
+        className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 text-white hover:text-gray-300 p-2 bg-black/50 rounded-full backdrop-blur-sm z-20"
+        aria-label="Imagen siguiente"
       >
-        <ChevronRight className="w-10 h-10" />
+        <ChevronRight className="w-8 h-8 md:w-10 md:h-10" />
       </button>
     </div>
   );
 }
 
-export default function GallerySection() {
+export default function Gallery() {
   const [lightbox, setLightbox] = useState<LightboxState | null>(null);
 
   const openLightbox = (images: GalleryImage[], index: number) => {
@@ -243,11 +267,11 @@ export default function GallerySection() {
   };
 
   return (
-    <section className="bg-black py-20 px-4 md:py-32">
+    <section id="gallery" className="bg-black py-20 px-4 md:py-32">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-balance font-sans text-4xl font-black uppercase tracking-tight text-white md:text-5xl lg:text-6xl">
-            Nuestro Equipo
+            Nuestros Equipos
           </h2>
           <div className="mx-auto h-1 w-24 bg-white" />
           <p className="mx-auto mt-6 max-w-3xl text-pretty text-lg leading-relaxed text-white/70 md:text-xl">

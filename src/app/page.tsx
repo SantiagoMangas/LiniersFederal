@@ -3,7 +3,8 @@ import { About } from "../components/about"
 import { Desafio } from "../components/desafio";
 import { Donation } from "../components/donation";
 import Gallery  from "../components/gallery"
-import { Contact } from "../components/contact";
+import Contact  from "../components/contact";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
      <Donation />
      <Gallery />
      <Contact />
+     <Footer />
     </>
   );
 }
