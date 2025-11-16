@@ -7,29 +7,21 @@ export default function Contact() {
     {
       name: "Instagram",
       icon: Instagram,
-      color: "from-gray-700 to-black",
-      hoverColor: "group-hover:scale-110",
       link: "https://www.instagram.com/liniersvoley_bahiablanca/"
     },
     {
       name: "Facebook",
       icon: Facebook,
-      color: "from-gray-700 to-black",
-      hoverColor: "group-hover:scale-110",
       link: "https://www.facebook.com/liniers.voley.9?locale=es_LA"
     },
     {
       name: "WhatsApp",
       icon: MessageCircle,
-      color: "from-gray-700 to-black",
-      hoverColor: "group-hover:scale-110",
       link: "https://wa.me/5492915093873?text=Hola,%20tengo%20dudas%20sobre%20cómo%20donar"
     },
     {
       name: "Email",
       icon: Mail,
-      color: "from-gray-700 to-black",
-      hoverColor: "group-hover:scale-110",
       link: "mailto:claudiocampera@hotmail.com"
     }
   ]
@@ -62,17 +54,14 @@ export default function Contact() {
                 target="_blank"
                 key={social.name}
                 href={social.link}
-                className="group relative overflow-hidden rounded-2xl bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2"
+                className="group relative overflow-hidden rounded-2xl bg-white p-6 shadow-lg transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:bg-black"
                 style={{
                   animationDelay: `${index * 100}ms`
                 }}
               >
-                {/* Gradient background on hover */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${social.color} opacity-0 transition-opacity duration-300 group-hover:opacity-100`} />
-                
                 <div className="relative z-10">
                   <div className="mb-3 inline-flex h-16 w-16 items-center justify-center rounded-full bg-black transition-all duration-300 group-hover:bg-white">
-                    <Icon className={`h-8 w-8 text-white transition-all duration-300 group-hover:text-black ${social.hoverColor}`} />
+                    <Icon className="h-8 w-8 text-white transition-all duration-300 group-hover:text-black group-hover:scale-110" />
                   </div>
                   <p className="font-bold text-black transition-colors duration-300 group-hover:text-white">
                     {social.name}

@@ -1,5 +1,3 @@
-import { Card } from "../components/card"
-
 import { Heart, Building2, Users } from "lucide-react"
 
 export function Donation(){
@@ -26,34 +24,34 @@ export function Donation(){
                 <h3 className="mb-4 text-center text-2xl font-bold text-black">Donación Personal</h3>
             <div className="mb-8 space-y-3 text-center">
               <a 
-                href="https://wa.me/5492915093873?text=Hola,%20quiero%20donar%20$5.000" 
+                href="https://mpago.la/2F7xgpS" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block rounded-sm p-1 w-full bg-secondary text-black hover:bg-black hover:text-white font-semibold cursor-pointer"
+                className="block rounded-sm p-1 w-full bg-secondary text-black hover:bg-black hover:text-white font-semibold cursor-pointer transition-colors duration-300"
               >
                 $5.000
               </a>
               <a 
-                href="https://wa.me/5492915093873?text=Hola,%20quiero%20donar%20$10.000" 
+                href="https://mpago.la/1f71Pxt" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block rounded-sm p-1 w-full bg-secondary text-black hover:bg-black hover:text-white font-semibold cursor-pointer"
+                className="block rounded-sm p-1 w-full bg-secondary text-black hover:bg-black hover:text-white font-semibold cursor-pointer transition-colors duration-300"
               >
                 $10.000
               </a>
               <a 
-                href="https://wa.me/5492915093873?text=Hola,%20quiero%20donar%20$20.000" 
+                href="https://mpago.la/1sewvJu" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block rounded-sm p-1 w-full bg-secondary text-black hover:bg-black hover:text-white font-semibold cursor-pointer"
+                className="block rounded-sm p-1 w-full bg-secondary text-black hover:bg-black hover:text-white font-semibold cursor-pointer transition-colors duration-300"
               >
                 $20.000
               </a>
               <a 
-                href="https://wa.me/5492915093873?text=Hola,%20quiero%20hacer%20una%20donación%20personalizada" 
+                href="https://link.mercadopago.com.ar/voleyliniers2026" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block rounded-sm p-1 w-full bg-black text-white hover:bg-black/90 font-semibold cursor-pointer"
+                className="block rounded-sm p-1 w-full bg-black text-white hover:bg-black/90 font-semibold cursor-pointer transition-colors duration-300"
               >
                 Otro Monto
               </a>
@@ -71,29 +69,44 @@ export function Donation(){
               </div>
               <h3 className="mb-4 text-center text-2xl font-bold text-black">Sponsor</h3>
               <div className="mb-8 space-y-4">
-                <div className="rounded-lg bg-secondary p-4">
-                  <p className="mb-1 font-bold text-black">Bronce</p>
-                  <p className="text-2xl font-black text-black">$50.000</p>
-                  <p className="text-sm text-muted-foreground">Logo en redes sociales</p>
-                </div>
-                <div className="rounded-lg bg-secondary p-4">
-                  <p className="mb-1 font-bold text-black">Plata</p>
-                  <p className="text-2xl font-black text-black">$100.000</p>
-                  <p className="text-sm text-muted-foreground">Logo en indumentaria</p>
-                </div>
-                <div className="rounded-lg bg-black p-4 text-white">
+                <a 
+                  href="https://wa.me/5492915093873?text=Hola,%20quiero%20ser%20sponsor%20Bronce%20($50.000)%20y%20aparecer%20en%20redes%20sociales" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block rounded-lg bg-secondary p-4 hover:bg-black hover:text-white transition-colors duration-300 cursor-pointer group"
+                >
+                  <p className="mb-1 font-bold text-black group-hover:text-white">Bronce</p>
+                  <p className="text-2xl font-black text-black group-hover:text-white">$50.000</p>
+                  <p className="text-sm text-muted-foreground group-hover:text-white/70">Logo en redes sociales</p>
+                </a>
+                <a 
+                  href="https://wa.me/5492915093873?text=Hola,%20quiero%20ser%20sponsor%20Plata%20($100.000)%20y%20aparecer%20en%20la%20indumentaria" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block rounded-lg bg-secondary p-4 hover:bg-black hover:text-white transition-colors duration-300 cursor-pointer group"
+                >
+                  <p className="mb-1 font-bold text-black group-hover:text-white">Plata</p>
+                  <p className="text-2xl font-black text-black group-hover:text-white">$100.000</p>
+                  <p className="text-sm text-muted-foreground group-hover:text-white/70">Logo en indumentaria</p>
+                </a>
+                <a 
+                  href="https://wa.me/5492915093873?text=Hola,%20quiero%20ser%20sponsor%20Oro%20($200.000+)%20como%20sponsor%20principal" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block rounded-lg bg-black p-4 text-white hover:bg-black/90 transition-colors duration-300 cursor-pointer"
+                >
                   <p className="mb-1 font-bold">Oro</p>
                   <p className="text-2xl font-black">$200.000+</p>
                   <p className="text-sm text-white/70">Sponsor principal</p>
-                </div>
+                </a>
               </div>
               <a 
-                href="https://wa.me/5492915093873?text=Hola,%20quiero%20ser%20sponsor%20del%20torneo" 
+                href="https://wa.me/5492915093873?text=Hola,%20quiero%20información%20sobre%20las%20opciones%20de%20sponsoreo" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="block text-center rounded-sm p-1 w-full bg-black text-white hover:bg-black/90 font-semibold cursor-pointer"
+                className="block text-center rounded-sm p-1 w-full bg-black text-white hover:bg-black/90 font-semibold cursor-pointer transition-colors duration-300"
               >
-                Contactar
+                Más Información
               </a>
             </div>
 
@@ -114,10 +127,10 @@ export function Donation(){
               </div>
             </div>
             <a 
-              href="https://wa.me/5492915093873?text=Hola,%20quiero%20organizar%20una%20colecta%20grupal" 
+              href="https://wa.me/5492915093873?text=Hola,%20quiero%20organizar%20una%20colecta%20grupal%20para%20apoyar%20al%20equipo" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="block text-center rounded-sm p-1 w-full bg-black text-white hover:bg-black/90 font-semibold cursor-pointer"
+              className="block text-center rounded-sm p-1 w-full bg-black text-white hover:bg-black/90 font-semibold cursor-pointer transition-colors duration-300"
             >
               Organizar Colecta
             </a>
@@ -131,7 +144,7 @@ export function Donation(){
               href="https://wa.me/5492915093873?text=Hola,%20tengo%20dudas%20sobre%20cómo%20donar" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block bg-white text-black hover:bg-white/90 font-bold px-6 py-3 rounded-sm cursor-pointer"
+              className="inline-block bg-white text-black hover:bg-white/90 font-bold px-6 py-3 rounded-sm cursor-pointer transition-colors duration-300"
             >
               Hablar por WhatsApp
             </a>
