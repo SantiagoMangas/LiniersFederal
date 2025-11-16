@@ -81,7 +81,12 @@ export default function Contact() {
           </div>
 
           <div className="relative z-10">
-            <div className="mb-2 inline-block rounded-full bg-black px-4 py-1">
+            <div className="mb-4 inline-flex items-center gap-3 rounded-full bg-black px-5 py-2">
+              <img 
+                src="/Liniers_BB.png" 
+                alt="Club Liniers" 
+                className="h-6 w-6 object-contain"
+              />
               <p className="text-sm font-medium uppercase tracking-wide text-white">
                 Club Liniers
               </p>

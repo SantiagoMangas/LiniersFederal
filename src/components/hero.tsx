@@ -11,8 +11,14 @@ export function Hero() {
             </div>
 
             <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
-                <div className="mb-6 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-medium text-white backdrop-blur-sm">
-                    Liga Federal 2026
+                
+                <div className="mb-8 flex items-center gap-3 rounded-full border border-white/20 bg-white/10 px-6 py-3 backdrop-blur-sm">
+                    <img 
+                        src="/Liniers_BB.png" 
+                        alt="Club Liniers" 
+                        className="h-8 w-8 object-contain"
+                    />
+                    <span className="text-sm font-medium text-white">Liga Federal 2026</span>
                 </div>
 
                 <h1 className="mb-6 text-balance text-5xl font-black uppercase leading-[1] tracking-tight text-white md:text-7xl lg:text-8xl">
