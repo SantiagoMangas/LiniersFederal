@@ -139,7 +139,7 @@ export function Donation(){
         <div className="mt-12 text-center">
           <div className="rounded-xl border-2 border-black bg-black p-8 text-white">
             <h3 className="mb-3 text-2xl font-bold">¿Tenés dudas sobre cómo donar?</h3>
-            <p className="mb-6 text-pretty text-white/80">Contactanos por WhatsApp y te ayudamos con el proceso</p>
+            <p className="mb-6 text-pretty text-white/80">Contáctanos por WhatsApp y te ayudamos con el proceso</p>
             <a 
               href="https://wa.me/5492915093873?text=Hola,%20tengo%20dudas%20sobre%20cómo%20donar" 
               target="_blank" 
