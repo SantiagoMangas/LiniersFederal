@@ -27,7 +27,7 @@ export function Hero() {
 
                 <div className="flex flex-col gap-4 sm:flex-row">
                     <button 
-                        onClick={() => document.getElementById('donation')?.scrollIntoView({ behavior: 'smooth' })}
+                        onClick={() => document.getElementById('donate')?.scrollIntoView({ behavior: 'smooth' })}
                         className="group relative overflow-hidden rounded-full bg-white px-8 py-4 text-base font-bold uppercase tracking-wide text-black transition-all duration-300 hover:scale-105 hover:shadow-2xl"
                     >
                         <span className="relative z-10">Donar Ahora</span>
