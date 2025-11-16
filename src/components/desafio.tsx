@@ -33,7 +33,7 @@ export function Desafio() {
             <Card
             icon={TrendingUp}
             title="Logística"
-            description="Inscripción, gestíon, coordinación y gastos operativos del torneo"
+            description="Inscripción, gestión, coordinación y gastos operativos del torneo"
             />
         </div>
         <div className="rounded-2xl border border-white/20 bg-white/5 p-6 md:p-8 backdrop-blur-sm transition-all hover:bg-white/10">
