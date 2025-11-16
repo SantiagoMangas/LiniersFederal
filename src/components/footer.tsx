@@ -7,7 +7,7 @@ export default function Footer() {
     { name: "Instagram", icon: Instagram, link: "https://www.instagram.com/liniersvoley_bahiablanca/" },
     { name: "Facebook", icon: Facebook, link: "https://www.facebook.com/liniers.voley.9?locale=es_LA" },
     { name: "WhatsApp", icon: MessageCircle, link: "https://wa.me/5492915093873?text=Hola,%20tengo%20dudas%20sobre%20cómo%20donar"},
-    { name: "Email", icon: Mail, link: "mailto:claudiocampera@hotmail.com",  }
+    { name: "Email", icon: Mail, link: "https://mail.google.com/mail/?view=cm&to=claudiocampera@hotmail.com&su=Consulta sobre Club Liniers" }
   ]
 
   const quickLinks = [
@@ -48,11 +48,6 @@ export default function Footer() {
             <p className="mb-4 text-sm text-gray-400 leading-relaxed">
               Unidos por el vóley, unidos por Bahía Blanca, unidos por el sueño federal.
             </p>
-            <div className="inline-flex items-center gap-1 text-xs text-gray-500">
-              <span>Hecho con</span>
-              <Heart className="h-3 w-3 text-red-500 animate-pulse" />
-              <span>en Bahía Blanca</span>
-            </div>
           </div>
 
           <div className="text-center">
@@ -107,20 +102,10 @@ export default function Footer() {
         {/* Divider */}
         <div className="my-8 h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
 
-        <div className="flex flex-col items-center justify-between gap-4 text-center md:flex-row">
+        <div className="flex flex-col items-center justify-center gap-4 text-center md:flex-row">
           <p className="text-xs text-gray-500">
             © 2026 Club Liniers. Todos los derechos reservados.
           </p>
-
-          <div className="flex gap-4 text-xs text-gray-500">
-            <a href="#" className="transition-colors hover:text-white">
-              Política de Privacidad
-            </a>
-            <span>•</span>
-            <a href="#" className="transition-colors hover:text-white">
-              Términos
-            </a>
-          </div>
         </div>
       </div>
 

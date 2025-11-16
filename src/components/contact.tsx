@@ -22,7 +22,7 @@ export default function Contact() {
     {
       name: "Email",
       icon: Mail,
-      link: "mailto:claudiocampera@hotmail.com"
+      link: "https://mail.google.com/mail/?view=cm&to=claudiocampera@hotmail.com&su=Consulta sobre Club Liniers"
     }
   ]
 

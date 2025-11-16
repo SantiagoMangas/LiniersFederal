@@ -11,6 +11,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Club Atletico Liniers Voley",
   description: "Ayudanos a representar a Bahía Blanca en la Liga Federal de Vóley 2026. Donaciones para los equipos masculino y femenino del Club Liniers.",
+  icons: {
+    icon: '/Liniers_BB.png',
+    apple: '/Liniers_BB.png',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
