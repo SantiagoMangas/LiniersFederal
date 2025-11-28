@@ -39,12 +39,15 @@ export function Desafio() {
         <div className="rounded-2xl border border-white/20 bg-white/5 p-6 md:p-8 backdrop-blur-sm transition-all hover:bg-white/10">
           <div className="mb-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between md:gap-0">
             <h3 className="text-xl font-bold text-white md:text-2xl">Meta de Recaudación</h3>
-            <p className="text-2xl font-black text-white md:text-3xl">$27.800.000</p>
+            <p className="text-2xl font-black text-white md:text-3xl">$23.350.000</p>
           </div>
           <div className="mb-3 h-4 w-full overflow-hidden rounded-full bg-white/20">
-            <div className="h-full w-0 bg-white transition-all duration-500" />
+            <div 
+              className="h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 transition-all duration-500 shadow-lg shadow-purple-500/50" 
+              style={{ width: '5.14%' }}
+            />
           </div>
-          <p className="text-sm text-white/70">Cada peso nos acerca al sueño. ¡Tu aporte hace la diferencia!</p>
+          <p className="text-sm text-white/60 mt-2">Cada peso nos acerca al sueño. ¡Tu aporte hace la diferencia!</p>
         </div>
       </div>
     </section>
