@@ -101,7 +101,7 @@ export function Donation() {
             <h3 className="mb-4 text-center text-2xl font-bold text-black">Sponsor</h3>
             <div className="mb-8 space-y-4">
               <a 
-                href="https://wa.me/5492915093873?text=Hola,%20quiero%20ser%20sponsor%20Bronce%20($50.000)%20y%20aparecer%20en%20redes%20sociales" 
+                href="https://wa.me/5492915093873?text=Hola,%20quiero%20ser%20sponsor%20Bronce%20($75.000)%20y%20aparecer%20en%20redes%20sociales" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block rounded-lg bg-secondary p-4 hover:bg-black hover:text-white transition-colors duration-300 cursor-pointer group"
