@@ -107,7 +107,7 @@ export function Donation() {
                 className="block rounded-lg bg-secondary p-4 hover:bg-black hover:text-white transition-colors duration-300 cursor-pointer group"
               >
                 <p className="mb-1 font-bold text-black group-hover:text-white">Bronce</p>
-                <p className="text-2xl font-black text-black group-hover:text-white">$50.000</p>
+                <p className="text-2xl font-black text-black group-hover:text-white">$75.000</p>
                 <p className="text-sm text-muted-foreground group-hover:text-white/70">Logo en redes sociales</p>
               </a>
               <a 
