@@ -83,8 +83,8 @@ export function Sponsors() {
           </h3>
           <div className="relative overflow-hidden">
             {/* Fade gradients */}
-            <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-black to-transparent z-10" />
-            <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-black to-transparent z-10" />
+            <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />
+            <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none" />
             
             <div className="flex gap-8 animate-scroll">
               {[...Array(3)].map((_, setIndex) => (
@@ -160,10 +160,6 @@ export function Sponsors() {
         
         .animate-scroll {
           animation: scroll 35s linear infinite;
-        }
-        
-        .animate-scroll:hover {
-          animation-play-state: paused;
         }
       `}</style>
     </section>
