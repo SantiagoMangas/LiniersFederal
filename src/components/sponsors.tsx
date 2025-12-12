@@ -13,6 +13,7 @@ const standardSponsors = [
   { name: "Sponsor 2", image: "/sponsors/ComplejoDarregueira.jpeg", tier: "standard" },
   { name: "Sponsor 3", image: "/sponsors/TFC.png", tier: "standard" },
   { name: "Sponsor 4", image: "/sponsors/fusion_logo.jpg", tier: "standard" },
+  { name: "Sponsor 5", image: "/sponsors/LOGOINMOBILIARIATORNQUIST.png", tier: "standard" },
 ]
 
 export function Sponsors() {
