@@ -6,6 +6,7 @@ import Image from "next/image"
 const premiumSponsors = [
   { name: "Sponsor Premium 1", image: "/sponsors/fusion_logo.jpg", tier: "premium" },
   { name: "Sponsor Premium 2", image: "/sponsors/TFC.png", tier: "premium" },
+  { name: "Sponsor Premium 3", image: "/sponsors/LOGOINMOBILIARIATORNQUIST.png", tier: "premium" },
 ]
 
 const standardSponsors = [
