@@ -7,6 +7,7 @@ const premiumSponsors = [
   { name: "Sponsor Premium 1", image: "/sponsors/fusion_logo.jpg", tier: "premium" },
   { name: "Sponsor Premium 2", image: "/sponsors/TFC.png", tier: "premium" },
   { name: "Sponsor Premium 3", image: "/sponsors/LOGOINMOBILIARIATORNQUIST.png", tier: "premium" },
+  { name: "Sponsor Premium 4", image: "/sponsors/LOGOCOREVASCULA.png", tier: "premium" },
 ]
 
 const standardSponsors = [
@@ -15,6 +16,7 @@ const standardSponsors = [
   { name: "Sponsor 3", image: "/sponsors/TFC.png", tier: "standard" },
   { name: "Sponsor 4", image: "/sponsors/fusion_logo.jpg", tier: "standard" },
   { name: "Sponsor 5", image: "/sponsors/LOGOINMOBILIARIATORNQUIST.png", tier: "standard" },
+  { name: "Sponsor 6", image: "/sponsors/LOGOCOREVASCULA.png", tier: "standard" },
 ]
 
 export function Sponsors() {
@@ -35,11 +37,11 @@ export function Sponsors() {
             <h3 className="text-xl font-semibold text-white/90">Sponsors Premium</h3>
             <Sparkles className="w-5 h-5 text-yellow-400" />
           </div>
-          <div className="flex flex-wrap justify-center gap-6 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
             {premiumSponsors.map((sponsor, index) => (
               <div
                 key={index}
-                className="group relative w-72 h-40 md:w-96 md:h-52 bg-white rounded-2xl 
+                className="group relative w-full h-40 md:h-52 bg-white rounded-2xl 
                            flex items-center justify-center
                            border-4 border-white shadow-2xl shadow-white/20
                            hover:scale-105 hover:shadow-white/50 hover:shadow-3xl
@@ -86,29 +88,31 @@ export function Sponsors() {
             <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />
             <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none" />
             
-            <div className="flex gap-8 animate-scroll">
-              {[...Array(3)].map((_, setIndex) => (
-                standardSponsors.map((sponsor, index) => (
-                  <div
-                    key={`set-${setIndex}-${index}`}
-                    className="flex-shrink-0 w-52 h-32 md:w-64 md:h-40 bg-white/90 hover:bg-white 
-                               rounded-lg flex items-center justify-center
-                               border-2 border-white/30 hover:border-white
-                               hover:scale-105 transition-all duration-300 shadow-lg 
-                               overflow-hidden group"
-                  >
-                    <div className="w-full h-full p-2 flex items-center justify-center">
-                      <Image
-                        src={sponsor.image || "/placeholder.svg"}
-                        alt={sponsor.name}
-                        width={256}
-                        height={160}
-                        className="object-contain w-full h-full group-hover:scale-110 transition-transform duration-300"
-                      />
+            <div className="overflow-x-auto overflow-y-hidden scrollbar-hide touch-pan-x">
+              <div className="flex gap-8 animate-scroll hover:animation-paused">
+                {[...Array(3)].map((_, setIndex) => (
+                  standardSponsors.map((sponsor, index) => (
+                    <div
+                      key={`set-${setIndex}-${index}`}
+                      className="flex-shrink-0 w-52 h-32 md:w-64 md:h-40 bg-white/90 hover:bg-white 
+                                 rounded-lg flex items-center justify-center
+                                 border-2 border-white/30 hover:border-white
+                                 hover:scale-105 transition-all duration-300 shadow-lg 
+                                 overflow-hidden group"
+                    >
+                      <div className="w-full h-full p-2 flex items-center justify-center">
+                        <Image
+                          src={sponsor.image || "/placeholder.svg"}
+                          alt={sponsor.name}
+                          width={256}
+                          height={160}
+                          className="object-contain w-full h-full group-hover:scale-110 transition-transform duration-300"
+                        />
+                      </div>
                     </div>
-                  </div>
-                ))
-              ))}
+                  ))
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -143,7 +147,7 @@ export function Sponsors() {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(calc(-1 * (208px + 32px) * 3));
+            transform: translateX(calc(-1 * (208px + 32px) * 6));
           }
         }
         
@@ -153,13 +157,26 @@ export function Sponsors() {
               transform: translateX(0);
             }
             100% {
-              transform: translateX(calc(-1 * (256px + 32px) * 3));
+              transform: translateX(calc(-1 * (256px + 32px) * 6));
             }
           }
         }
         
         .animate-scroll {
-          animation: scroll 35s linear infinite;
+          animation: scroll 20s linear infinite;
+        }
+        
+        .hover\\:animation-paused:hover {
+          animation-play-state: paused;
+        }
+        
+        .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+        
+        .scrollbar-hide::-webkit-scrollbar {
+          display: none;
         }
       `}</style>
     </section>
