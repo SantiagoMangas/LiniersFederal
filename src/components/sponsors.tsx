@@ -8,6 +8,7 @@ const premiumSponsors = [
   { name: "Sponsor Premium 2", image: "/sponsors/TFC.png", tier: "premium" },
   { name: "Sponsor Premium 3", image: "/sponsors/LOGOINMOBILIARIATORNQUIST.png", tier: "premium" },
   { name: "Sponsor Premium 4", image: "/sponsors/LOGOCOREVASCULA.png", tier: "premium" },
+  { name: "Sponsor Premium 5", image: "/sponsors/Logo-Rosa-Transparente.png", tier: "premium" },
 ]
 
 const standardSponsors = [
@@ -17,6 +18,7 @@ const standardSponsors = [
   { name: "Sponsor 4", image: "/sponsors/fusion_logo.jpg", tier: "standard" },
   { name: "Sponsor 5", image: "/sponsors/LOGOINMOBILIARIATORNQUIST.png", tier: "standard" },
   { name: "Sponsor 6", image: "/sponsors/LOGOCOREVASCULA.png", tier: "standard" },
+  { name: "Sponsor 7", image: "/sponsors/Logo-Rosa-Transparente.png", tier: "standard" },
 ]
 
 export function Sponsors() {
