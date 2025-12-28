@@ -17,15 +17,18 @@ const premiumSponsors = [
 const standardSponsors = [
   { name: "Sponsor 1", image: "/sponsors/YPFAgro.png", tier: "standard" },
   { name: "Sponsor 2", image: "/sponsors/ComplejoDarregueira.jpeg", tier: "standard" },
-  { name: "Sponsor 3", image: "/sponsors/LOGOINMOBILIARIATORNQUIST.png", tier: "standard" },
+  { name: "Sponsor 5", image: "/sponsors/LOGOINMOBILIARIATORNQUIST.png", tier: "standard" },
   { name: "Sponsor 4", image: "/sponsors/Logo-Rosa-Transparente.png", tier: "standard" },
-  { name: "Sponsor 5", image: "/sponsors/MorenoInsumos.jpeg", tier: "standard"},
+  { name: "Sponsor 11", image: "/sponsors/MorenoInsumos.jpeg", tier: "standard"},
   { name: "Sponsor 6", image: "/sponsors/LOGOCOREVASCULA.png", tier: "standard" },
   { name: "Sponsor 7", image: "/sponsors/fusion_logo.jpg", tier: "standard" },
   { name: "Sponsor 8", image: "/sponsors/LabDiagnostic.jpeg", tier: "standard"},
   { name: "Sponsor 9", image: "/sponsors/WildShrimp.jpeg", tier: "standard"},
   { name: "Sponsor 10", image: "/sponsors/TFC.png", tier: "standard" },
-  { name: "Sponsor 11", image: "/sponsors/Points.png", tier: "standard" },
+  { name: "Sponsor 3", image: "/sponsors/Points.png", tier: "standard" },
+  { name: "Sponsor 12", image: "/sponsors/ComplejoDarregueira.jpeg", tier: "standard" },
+  { name: "Sponsor 13", image: "/sponsors/YPFAgro.png", tier: "standard" },
+  { name: "Sponsor 14", image: "/sponsors/Points.png", tier: "standard" },
 ]
 
 export function Sponsors() {
