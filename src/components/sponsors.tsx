@@ -4,31 +4,23 @@ import { ArrowDown, Sparkles } from "lucide-react"
 import Image from "next/image"
 
 const premiumSponsors = [
-  { name: "Sponsor Premium 1", image: "/sponsors/LOGOINMOBILIARIATORNQUIST.png", tier: "premium" },
-  { name: "Sponsor Premium 2", image: "/sponsors/Logo-Rosa-Transparente.png", tier: "premium" },
-  { name: "Sponsor Premium 3", image: "/sponsors/MorenoInsumos.jpeg", tier: "premium"},
-  { name: "Sponsor Premium 4", image: "/sponsors/LOGOCOREVASCULA.png", tier: "premium" },
-  { name: "Sponsor Premium 5", image: "/sponsors/fusion_logo.jpg", tier: "premium" },
-  { name: "Sponsor Premium 6", image: "/sponsors/LabDiagnostic.jpeg", tier: "premium"},
-  { name: "Sponsor Premium 7", image: "/sponsors/WildShrimp.jpeg", tier: "premium"},
-  { name: "Sponsor Premium 8", image: "/sponsors/TFC.png", tier: "premium" },
+  { name: "Inmobiliaria Tornquist", image: "/sponsors/LOGOINMOBILIARIATORNQUIST.png", tier: "premium" },
+  { name: "La Chiara", image: "/sponsors/Logo-Rosa-Transparente.png", tier: "premium" },
+  { name: "Moreno Insumos", image: "/sponsors/MorenoInsumos.jpeg", tier: "premium"},
+  { name: "Core Vascular", image: "/sponsors/LOGOCOREVASCULA.png", tier: "premium" },
+  { name: "Fusión", image: "/sponsors/fusion_logo.jpg", tier: "premium" },
+  { name: "LabDiagnostic", image: "/sponsors/LabDiagnostic.jpeg", tier: "premium"},
+  { name: "Wild Shrimp", image: "/sponsors/WildShrimp.jpeg", tier: "premium"},
+  { name: "CelularesTF", image: "/sponsors/TFC.png", tier: "premium" },
 ]
 
 const standardSponsors = [
-  { name: "Sponsor 1", image: "/sponsors/YPFAgro.png", tier: "standard" },
-  { name: "Sponsor 2", image: "/sponsors/ComplejoDarregueira.jpeg", tier: "standard" },
-  { name: "Sponsor 5", image: "/sponsors/LOGOINMOBILIARIATORNQUIST.png", tier: "standard" },
-  { name: "Sponsor 4", image: "/sponsors/Logo-Rosa-Transparente.png", tier: "standard" },
-  { name: "Sponsor 11", image: "/sponsors/MorenoInsumos.jpeg", tier: "standard"},
-  { name: "Sponsor 6", image: "/sponsors/LOGOCOREVASCULA.png", tier: "standard" },
-  { name: "Sponsor 7", image: "/sponsors/fusion_logo.jpg", tier: "standard" },
-  { name: "Sponsor 8", image: "/sponsors/LabDiagnostic.jpeg", tier: "standard"},
-  { name: "Sponsor 9", image: "/sponsors/WildShrimp.jpeg", tier: "standard"},
-  { name: "Sponsor 10", image: "/sponsors/TFC.png", tier: "standard" },
-  { name: "Sponsor 3", image: "/sponsors/Points.png", tier: "standard" },
-  { name: "Sponsor 12", image: "/sponsors/ComplejoDarregueira.jpeg", tier: "standard" },
-  { name: "Sponsor 13", image: "/sponsors/YPFAgro.png", tier: "standard" },
-  { name: "Sponsor 14", image: "/sponsors/Points.png", tier: "standard" },
+  { name: "YPF Agro", image: "/sponsors/YPFAgro.png", tier: "standard" },
+  { name: "Complejo Darregueira", image: "/sponsors/ComplejoDarregueira.jpeg", tier: "standard" },
+  { name: "Points", image: "/sponsors/Points.png", tier: "standard" },
+  { name: "Complejo Darregueira", image: "/sponsors/ComplejoDarregueira.jpeg", tier: "standard" },
+  { name: "YPF Agro", image: "/sponsors/YPFAgro.png", tier: "standard" },
+  { name: "Points", image: "/sponsors/Points.png", tier: "standard" },
 ]
 
 export function Sponsors() {
@@ -53,38 +45,46 @@ export function Sponsors() {
             {premiumSponsors.map((sponsor, index) => (
               <div
                 key={index}
-                className="group relative w-full h-40 md:h-52 bg-white rounded-2xl 
+                className="group relative"
+              >
+                <div className="relative w-full h-40 md:h-52 bg-white rounded-2xl 
                            flex items-center justify-center
                            border-4 border-white shadow-2xl shadow-white/20
                            hover:scale-105 hover:shadow-white/50 hover:shadow-3xl
                            transition-all duration-500
                            overflow-hidden"
-              >
-                {/* Glow effect */}
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-500/0 via-blue-400/20 to-blue-500/0 
+                >
+                  {/* Glow effect */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-blue-500/0 via-blue-400/20 to-blue-500/0 
                                 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                
-                {/* Shine effect */}
-                <div
-                  className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent 
+                  
+                  {/* Shine effect */}
+                  <div
+                    className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent 
                              translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000"
-                />
-                
-                {/* Premium badge */}
-                <div className="absolute z-11 top-2 right-2 bg-yellow-400 text-black text-xs font-bold 
-                                px-2 py-1 rounded-full shadow-lg">
-                  PREMIUM
-                </div>
-                
-                <div className="relative z-10 w-full h-full p-2 md:p-4 flex items-center justify-center">
-                  <Image
-                    src={sponsor.image || "/placeholder.svg"}
-                    alt={sponsor.name}
-                    width={384}
-                    height={208}
-                    className="object-contain w-full h-full"
                   />
+                  
+                  {/* Premium badge */}
+                  <div className="absolute z-11 top-2 right-2 bg-yellow-400 text-black text-xs font-bold 
+                                px-2 py-1 rounded-full shadow-lg">
+                    PREMIUM
+                  </div>
+                  
+                  <div className="relative z-10 w-full h-full p-2 md:p-4 flex items-center justify-center">
+                    <Image
+                      src={sponsor.image || "/placeholder.svg"}
+                      alt={sponsor.name}
+                      width={384}
+                      height={208}
+                      className="object-contain w-full h-full"
+                    />
+                  </div>
                 </div>
+                
+                {/* Sponsor Name */}
+                <p className="text-center text-white/80 font-medium mt-3 text-sm md:text-base">
+                  {sponsor.name}
+                </p>
               </div>
             ))}
           </div>
@@ -106,21 +106,29 @@ export function Sponsors() {
                   standardSponsors.map((sponsor, index) => (
                     <div
                       key={`set-${setIndex}-${index}`}
-                      className="flex-shrink-0 w-52 h-32 md:w-64 md:h-40 bg-white/90 hover:bg-white 
+                      className="flex-shrink-0 flex flex-col items-center"
+                    >
+                      <div className="w-52 h-32 md:w-64 md:h-40 bg-white/90 hover:bg-white 
                                  rounded-lg flex items-center justify-center
                                  border-2 border-white/30 hover:border-white
                                  hover:scale-105 transition-all duration-300 shadow-lg 
                                  overflow-hidden group"
-                    >
-                      <div className="w-full h-full p-2 flex items-center justify-center">
-                        <Image
-                          src={sponsor.image || "/placeholder.svg"}
-                          alt={sponsor.name}
-                          width={256}
-                          height={160}
-                          className="object-contain w-full h-full group-hover:scale-110 transition-transform duration-300"
-                        />
+                      >
+                        <div className="w-full h-full p-2 flex items-center justify-center">
+                          <Image
+                            src={sponsor.image || "/placeholder.svg"}
+                            alt={sponsor.name}
+                            width={256}
+                            height={160}
+                            className="object-contain w-full h-full group-hover:scale-110 transition-transform duration-300"
+                          />
+                        </div>
                       </div>
+                      
+                      {/* Sponsor Name */}
+                      <p className="text-center text-white/70 font-medium mt-2 text-xs md:text-sm">
+                        {sponsor.name}
+                      </p>
                     </div>
                   ))
                 ))}
