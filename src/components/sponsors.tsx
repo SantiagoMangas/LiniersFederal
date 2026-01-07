@@ -9,6 +9,7 @@ const premiumSponsors = [
   { name: "Moreno Insumos", image: "/sponsors/MorenoInsumos.jpeg", tier: "premium"},
   { name: "Core Vascular", image: "/sponsors/LOGOCOREVASCULA.png", tier: "premium" },
   { name: "Fusión", image: "/sponsors/fusion_logo.jpg", tier: "premium" },
+  { name: "Coachirone", image: "/sponsors/Coachirone.jpeg", tier: "premium" },
   { name: "LabDiagnostic", image: "/sponsors/LabDiagnostic.jpeg", tier: "premium"},
   { name: "Wild Shrimp", image: "/sponsors/WildShrimp.jpeg", tier: "premium"},
   { name: "CelularesTF", image: "/sponsors/TFC.png", tier: "premium" },
